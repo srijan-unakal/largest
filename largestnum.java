@@ -4,7 +4,7 @@ public class largestno {
 //This program finds largest of two numbers given in the console  
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-        while (true) { 
+        for(;;) { 
 		System.out.println("Enter a number : ");
 		int a= sc.nextInt();
 		System.out.println("Enter a number : ");
