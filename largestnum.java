@@ -12,8 +12,11 @@ public class largestno {
 		if (a>b) {
 			System.out.println(a+" is greater than "+b);
 		}
-		else {
+		else if (a<b){
 			System.out.println(b+" is greater than "+a);
+		}
+		else{
+			System.out.println("Both numbers are equal ");
 		}
         System.out.println("Do you want to continue : Y/N");
         char c = Character.toUpperCase(sc.next().charAt(0));
