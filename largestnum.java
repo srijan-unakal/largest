@@ -25,7 +25,7 @@ public class largestno {
             break ;
         }
         }
-		sc.close();
+		sc.close(); //Scanner is closed
 	}
 
 }
